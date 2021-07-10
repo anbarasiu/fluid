@@ -1,25 +1,21 @@
-site: Gesko
-title: Gesko
+site: Fluid
+title: Fluid
 description: >-
-  just a minimalist, personal blog
+  Fluid. Anbu.
 googlewebfonts: Fira+Code:wght@400;500;700
 lang: en-US
-timezone: Rome
-repo: https://github.com/p0wex/Gesko # site repo [optional]
-data-theme: dark # default theme "dark" | "light"
+timezone: Calcutta
+data-theme: light # default theme "dark" | "light"
 
 author:
-  name: p0wex
-  bio: just a minimalist, personal blog
-  username: p0wex # general username
-  github: p0wex # github username
-  twitter: P0Wex # twitter username
-  email: your-email@email.com # email adress
+  name: Anbu
+  bio: Catch em' thoughts
+  email: hi@anbuu.in # email adress
 
 # URL settings
-url: "https://powex.ml" #
-baseurl: "/Gesko" # leave blank if not wishd
-permalink: "https://powex.ml/Gesko/"
+url: "https://fluid.anbuu.in" #
+baseurl: "" # leave blank if not wishd
+permalink: "https://fluid.anbuu.in/"
 permalink: pretty 
 
 
