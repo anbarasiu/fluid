@@ -5,6 +5,7 @@ googlewebfonts: Fira+Code:wght@400;500;700
 lang: en-US
 timezone: Calcutta
 data-theme: light # default theme "dark" | "light"
+google_analytics: true
 
 author:
   name: Anbu
