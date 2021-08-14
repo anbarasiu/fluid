@@ -3,7 +3,7 @@ layout: post
 title: Self Organising Team [WIP]
 description: What could an ideal self-organising team look like?
 summary: Nascent set thoughts on self-organising teams, as I try to gather and put together a better model for understanding.
-tags: engineering, teams
+tags: engineering teams
 ---
 
 What could an ideal self-organising team look like?
