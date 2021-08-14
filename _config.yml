@@ -1,6 +1,7 @@
 site: Fluid
-title: Fluid
-description: >
+title: Thoughts as they flow
+tagline: Ideas related to engineering, startups, philosophy explorations, books and just miscellaneous streams of thought
+description: Anbarasi has some ideas related to engineering, startups, philosophy explorations, books and just miscellaneous streams of thought
 googlewebfonts: Fira+Code:wght@400;500;700
 lang: en-US
 timezone: Calcutta
@@ -8,7 +9,7 @@ data-theme: light # default theme "dark" | "light"
 google_analytics: true
 
 author:
-  name: Anbu
+  name: Anbarasi U
   bio: Catch em' thoughts
   email: hi@anbuu.in # email adress
 
@@ -46,6 +47,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-relative-links
+  - jekyll-seo-tag
 
 collections:
   pages:
