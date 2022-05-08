@@ -16,6 +16,7 @@ In contrast to the popular mental image that physical money is printed when a go
 ### Where is money created?
 The form of money currently in circulation is predominantly digital, and physical currency in the form of notes and coins form a minor percentage. The commercial banks that we all know and maintain deposits in, are the creators of money! How? 
 Banks follow double book-keeping, with deposits being marked as 'liabilities', since the bank owes this money to the depositor and loans as 'assets' since this is money owed by a borrower in the future. 
+
 Let's follow this with an over simplified example. When person P1 deposits 100INR into bank B1, the bank's now eligible to lend 90INR, if the reserves to be maintained, as per the Central Bank, is 10%. The bank creates a deposit into P1's account and the balance sheet now says [Assets - 90INR, Liabilities - 100INR], with the entire system actually containing 190INR. The bank just created 90INR, which the borrower P2 can spend towards productive activities - say manufacture lamps, hence pay vendors for raw materials and employees, pushing the borrowed money into circulation for consumption. Say the borrower P2 pays a vendor P3, who deposits in his account B2, who's now eligibile to lend 81INR to borrower P4. This cycle goes on until the value diminishes for a single deposit's lifecycle, effectively creating money through circulation.
 In the same vein, money is destroyed when the credit is repaid. For example, when you repay your credit card bill, money is effectively destroyed.
 
