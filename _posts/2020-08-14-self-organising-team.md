@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Self Organising Team [WIP]
+title: Self Organising Team
 description: What could an ideal self-organising team look like?
 summary: Nascent set thoughts on self-organising teams, as I try to gather and put together a better model for understanding.
 tags: engineering systems
@@ -52,16 +52,34 @@ Define minimum threshold levels, how to identify expected characteristics/potent
 
 Focus on creating the right environment for everybody to excel
 
-Create cadences to minimise cognitive overload on processes, rather enable team for deep work and focus on solving customer problems
+Create cadences to minimise cognitive overload on processes, rather enable team for deep work and focus on solving customer problems, while the cadences run as background processes to aid in maintaining shipping momentum
 
-**Minimise ambiguities**
+### Minimise ambiguities
 
--   Engineering - scope of problem, solution decided, answer the question ‘Do I have full clarity of how to implement and get to production?’, else ask questions to resolve any unknowns
+Product engineering and delivery, is ultimately an exercise an visualising and leavening multiple abstract ideas in people's heads, into a solid product that can be experienced by the human senses. This leads to a fine balancing act in minimising ambiguities at multiple steps along the way, while identifying the right amount of effort to spend on it, as subjectively determined by the team composition. This is a two-way reinforcing feedback loop between product and engineering.
+
+#### Engineering
+
+Seek to minimise ambiguity in
+
+-   The need for the problem
+-   The scope of the problem
+Product Requirements Documents (PRDs) capture both the above and feed into the appropriate solution.
+-   The solution decided
+Technical Design Documents, Architecture Design Records (ADRs) and Request for Clarification (RFCs) have been historically relied upon
+-   Answer the question ‘Do I have full clarity of how to implement and get to production?’, else ask questions to resolve any unknowns
     
--   Product - timelines (When will it be ready? What exactly is the customer going to get?)
+#### Product
+
+Seek to minimise ambiguity in 
+
+-   Estimated timelines (When will it be ready?)
+-   Scope of the solution in iterations (What exactly is the customer going to get?)
     
 
 ### Parameters (Feedback loops)
+
+The levers that the team could continually tweak to get to the point of being totally self-organised.
 
 **Velocity**
 
@@ -72,11 +90,22 @@ Create cadences to minimise cognitive overload on processes, rather enable team 
 
 **Quality**
 
+-   Static code analyses, linting tools, to eliminate nit-picks and differences over coding styles in reviews
+
 -   Code reviews
     
--   Automated test suites
+-   Automated test suites (Unit tests, Integration tests and End-to-end tests)
     
 -   QA process (manual)
     
 
-*TBD*
+**Maintainabiilty**
+
+-   Monitoring with defined Service-level indictors and Service-level objectives
+
+-   Observability with logs and traces
+
+-   Alerting
+
+-   Dashboards with ownership
+
