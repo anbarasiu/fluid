@@ -46,7 +46,7 @@ Ideally an individual would be able to execute independently or contribute signi
 
 ## Hiring
 
-Define minimum threshold levels, how to identify expected characteristics/potential
+Define minimum threshold levels, how to identify expected characteristics/potential.
 
 ## Operating
 
@@ -54,11 +54,11 @@ Focus on creating the right environment for everybody to excel
 
 Create cadences to minimise cognitive overload on processes, rather enable team for deep work and focus on solving customer problems, while the cadences run as background processes to aid in maintaining shipping momentum
 
-### Minimise ambiguities
+**Minimise ambiguities**
 
-Product engineering and delivery, is ultimately an exercise an visualising and leavening multiple abstract ideas in people's heads, into a solid product that can be experienced by the human senses. This leads to a fine balancing act in minimising ambiguities at multiple steps along the way, while identifying the right amount of effort to spend on it, as subjectively determined by the team composition. This is a two-way reinforcing feedback loop between product and engineering.
+Product engineering and delivery, is ultimately an exercise in visualising and leavening multiple abstract ideas in people's heads, into a solid product that can be experienced by the human senses. This leads to a fine balancing act in minimising ambiguities at multiple steps along the way, while identifying the right amount of effort to spend on it, as subjectively determined by the team composition. This is a two-way reinforcing feedback loop between product and engineering.
 
-#### Engineering
+**Engineering**
 
 Seek to minimise ambiguity in
 
@@ -69,7 +69,7 @@ Product Requirements Documents (PRDs) capture both the above and feed into the a
 Technical Design Documents, Architecture Design Records (ADRs) and Request for Clarification (RFCs) have been historically relied upon
 -   Answer the question ‘Do I have full clarity of how to implement and get to production?’, else ask questions to resolve any unknowns
     
-#### Product
+**Product**
 
 Seek to minimise ambiguity in 
 
