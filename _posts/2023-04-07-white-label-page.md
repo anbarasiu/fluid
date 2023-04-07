@@ -10,8 +10,8 @@ tags: engineering, architecture, wildcard subdomain
 
 # Scope
 - Assumes an existing multi-tenant system
-- Subdomain (for example, https://user.sleepwell.com)
-- Domain can be a custom domain that the user already has (for example, https://user.com)
+- Subdomain (for example, _https://user.sleepwell.com_)
+- Domain can be a custom domain that the user already has (for example, _https://user.com_)
 - User information and branding, which will be the customisable fields
 
 # Modules
