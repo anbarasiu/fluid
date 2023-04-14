@@ -95,8 +95,8 @@ Server blocks can be manually added in the reverse proxy layer, but we are looki
 
 #### Some references
 
-[https://blog.checklyhq.com/setting-up-ssl-with-letsencrypt-for-saas-customers/](How I set up SSL with Let's Encrypt for my SaaS dashboard)
-[https://blog.readme.com/auto-generating-ssl-certificates-for-custom-domains-using-lets-encrypt/](How We Generate SSL Certificates for Custom Domains using Let’s Encrypt)
+- [https://blog.checklyhq.com/setting-up-ssl-with-letsencrypt-for-saas-customers/](How I set up SSL with Let's Encrypt for my SaaS dashboard)
+- [https://blog.readme.com/auto-generating-ssl-certificates-for-custom-domains-using-lets-encrypt/](How We Generate SSL Certificates for Custom Domains using Let’s Encrypt)
 
 ### Variations and trade-offs
 
