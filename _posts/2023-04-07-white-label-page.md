@@ -1,6 +1,6 @@
 ---
 layout: post
-title: White-labelled portal (WIP)
+title: White-labelled single-page application
 description: Hosted white-labelled portal
 summary: This is a system I enjoyed architecting, so here is an overview on putting together a simple white-labelled application
 tags: engineering architecture wildcard-subdomain
