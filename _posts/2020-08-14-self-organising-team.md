@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Self Organising Team [WIP]
-description: What could an ideal self-organising team look like?
-summary: Nascent set thoughts on self-organising teams, as I try to gather and put together a better model for understanding.
+title: Self Organising Engineering Team [WIP]
+description: What could an ideal self-organising engineering team look like?
+summary: Nascent set thoughts on self-organising engineering teams, as I try to gather and put together a better model for understanding.
 tags: engineering systems
 ---
 
-What could an ideal self-organising team look like?
+What could an ideal self-organising engineering team look like?
 
-Ideally an individual would be able to execute independently or contribute significantly in terms of the below.
+Ideally an individual would be able to execute independently or contribute significantly in terms of the below. The ideal team member handles all of these for a particular problem statement. Note that we don't deal with product features, instead we deal with customer pain points or problem statements.
 
 1.  Technical
     
@@ -19,7 +19,7 @@ Ideally an individual would be able to execute independently or contribute signi
 
 ### Technical (How)
 
--   Understands the problem statement in terms of customer need and could propose an appropriate technical solution.
+-   Understands the problem statement in terms of the customer need and could propose an appropriate technical solution.
     
 -   Can independently execute and implement the technical solution without a senior guide.
     
@@ -32,7 +32,7 @@ Ideally an individual would be able to execute independently or contribute signi
 
 -   Can self-manage by estimating timelines for the broken-down units of work and collating it.
     
--   Is committed to agreed timelines and takes ownership to place their work into the hands of the customer (for example, code deployed to production or communication loop with a stakeholder).
+-   Is committed to agreed timelines and takes ownership to place their work into the hands of the customer (for example, code deployed to production or closing a communication loop with a stakeholder).
     
 -   Can identify blockers/potential delays in delivery and flag them to the team.
     
@@ -46,7 +46,10 @@ Ideally an individual would be able to execute independently or contribute signi
 
 ## Hiring
 
+The team composition will matter more than the individual team members, in that the team members can work together as one cohesive unit. Each team will vary based on the stage of the company, the maturity of the product, the nature of working relationships with the stakeholders
+
 Define minimum threshold levels, how to identify expected characteristics/potential.
+
 
 ## Operating
 
@@ -86,6 +89,13 @@ The levers that the team could continually tweak to get to the point of being to
 -   Measure and improve time taken from requirement planning to delivery on production
     
 -   Time to deploy (CI/CD pipelines)
+
+-   Fail-fast feedback loops
+An environment where the team can face failures safely, without impacting the customer. Tactical things would involve:
+- automated tests running on every pull request, that assist code reviews
+- any bugs identified to feed into the automated test suite, to avoid a future regression
+- a development environment with error tracking and it's own monitoring and alerting systems. 
+- 
     
 
 **Quality**
