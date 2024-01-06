@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Software delivery as a system engineering problem (WIP)
+title: Software delivery as a system engineering problem [WIP]
 description: Software delivery as a system engineering problem
 summary:
 tags: engineering systems
