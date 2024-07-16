@@ -15,7 +15,7 @@ author:
 
 # URL settings
 url: "https://fluid.anbuu.in" #
-baseurl: "" # leave blank if not wishd
+baseurl: "https://fluid.anbuu.in" # used in meta tag
 permalink: "https://fluid.anbuu.in/"
 permalink: pretty 
 
