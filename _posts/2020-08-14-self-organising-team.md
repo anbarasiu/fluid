@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Self Organising Engineering Team [WIP]
+title: Self Organising Engineering Team
 description: What could an ideal self-organising engineering team look like?
 summary: Nascent set thoughts on self-organising engineering teams, as I try to gather and put together a better model for understanding.
 tags: engineering systems
@@ -67,9 +67,9 @@ Seek to minimise ambiguity in
 
 -   The need for the problem
 -   The scope of the problem
-Product Requirements Documents (PRDs) capture both the above and feed into the appropriate solution, to help the engineers working on the problem.
+Product Requirements Documents (PRDs) capture both the above and feed into the appropriate solution, to help the engineers working on the problem. The AI generators are solving this better with apps like Lovable generating high fidelity prototypes in a few minutes.
 -   The solution decided
-Technical Design Documents, Architecture Design Records (ADRs) and Request for Clarification (RFCs) have been historically relied upon to help the engineers visualise the solution and to identify tradeoffs and bottlenecks.
+Technical Design Documents, Architecture Design Records (ADRs) and Request for Clarification (RFCs) have been historically relied upon to help the engineers visualise the solution and to identify tradeoffs and bottlenecks. It's turtles all the way down and it's all about how much we need to drill down into defining specs as per the maturity of the team. 
 -   The engineer should be able to answer the question ‘Do I have full clarity of how to implement and get to production?’, else should ask questions to resolve any unknowns.
     
 **Product**
@@ -87,34 +87,38 @@ The levers that the team could continually tweak to get to the point of being to
 
 **Velocity**
 
--   Measure and improve time taken from requirement planning to delivery on production
+-   Measure and improve time taken from requirement planning to delivery on production. Honestly I wouldn't focus on getting a quantitative measure of this. The correct answer is "it depends" on the business timelines and whether the team is able to sustain the momentum of delivery. Any time the momentum falls, the root cause for that could be any of 
+- Code and architecture. In this case, it's time for a refactor by identifying the areas that slow down people. 
+- Processes. It could be anything like a release pricest or a QA process. If there's a bottleneck here, question if the process is still solving the problem in a way that it was originally intended to. A system is always how it currently behaves and not how it was designed. 
+- People. Is there a morale problem in the team or an individual? Is there a lack of skill for the current set of customer problems being solved by the team? Is there an individual weighing down the team?
     
 -   Time to deploy (CI/CD pipelines)
 
 -   Fail-fast feedback loops
 An environment where the team can face failures safely, without impacting the customer. Tactical things would involve:
 - automated tests running on every pull request, that assist code reviews
-- any bugs identified to feed into the automated test suite, to avoid a future regression
+- any bugs identified to feed into the automated test suite, to avoid a future regression. This also requires active maintenance by the team to ensure this serves as a good feedback layer.
 - a development environment with error tracking and it's own monitoring and alerting systems. 
-- 
+- nightly regression tests that can catch issues across the system
+- be as aggressive as possible about the pipeline durations so that they always run as quickly as possible. Parallelize runs wherever possible.
     
 
 **Quality**
 
 -   Static code analyses, linting tools, to eliminate nit-picks and differences over coding styles in reviews
 
--   Code reviews
+-   Code reviews. AI code review tool integration as the first pass check, so that team members need only verify functional requirements. 
     
 -   Automated test suites (Unit tests, Integration tests and End-to-end tests)
     
--   QA process (manual)
-    
+-   QA process (manual and exploratory). Dependent on the product. For example, a payment product might involve exploratory testing to identify 
+flows that aren't straightforward and to identify potential fraud scenarios. Whereas in a SAAS product with no operational touch points, it maybe possible to automate all the flows.
 
-**Maintainabiilty**
+**Maintainability**
 
 -   Monitoring with defined Service-level indictors and Service-level objectives
 
--   Observability with logs and traces
+-   Observability with logs and traces.
 
 -   Alerting
 
