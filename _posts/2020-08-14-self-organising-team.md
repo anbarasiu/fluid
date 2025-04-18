@@ -8,7 +8,8 @@ tags: engineering systems
 
 What could an ideal self-organising engineering team look like?
 
-Ideally an individual would be able to execute independently or contribute significantly in terms of the below. The ideal team member handles all of these for a particular problem statement. Note that we don't deal with product features, instead we deal with customer pain points or problem statements.
+We assume a common structure for an engineering team, comprising product engineers, designer(s) and a product manager. Ideally an individual would be able to execute independently or contribute significantly in terms of the below. The ideal team member handles all of these for a particular problem statement. Note that we don't deal with product features, instead we deal with customer pain points or problem statements.
+
 
 1.  Technical
     
@@ -46,16 +47,15 @@ Ideally an individual would be able to execute independently or contribute signi
 
 ## Hiring
 
-The team composition will matter more than the individual team members, in that the team members can work together as one cohesive unit. Each team will vary based on the stage of the company, the maturity of the product, the nature of working relationships with the stakeholders
+The team composition will matter more than the individual team members, in that the team members can work together as one cohesive unit. Each team will vary based on the stage of the company, the maturity of the product, the nature of working relationships with the stakeholders.
 
-Define minimum threshold levels, how to identify expected characteristics/potential.
-
+Define minimum thresholds in key skills that each potential hire needs to meet. Every additional hire needs to add something to the team in terms of complementary skills so that individual strengths and weaknesses can balance out. There are always tradeoffs to make, so we might be hiring for potential in a certain area. In that case, look for evidence of rate of growth in an adjacent area.
 
 ## Operating
 
-Focus on creating the right environment for everybody to excel
+Focus on creating the right environment for everybody to excel. 
 
-Create cadences to minimise cognitive overload on processes, rather enable team for deep work and focus on solving customer problems, while the cadences run as background processes to aid in maintaining shipping momentum
+Create cadences to minimise cognitive overload on processes, rather enable team for deep work and focus on solving customer problems, while the cadences run as background processes to aid in maintaining shipping momentum.
 
 **Minimise ambiguities**
 
@@ -67,10 +67,10 @@ Seek to minimise ambiguity in
 
 -   The need for the problem
 -   The scope of the problem
-Product Requirements Documents (PRDs) capture both the above and feed into the appropriate solution.
+Product Requirements Documents (PRDs) capture both the above and feed into the appropriate solution, to help the engineers working on the problem.
 -   The solution decided
-Technical Design Documents, Architecture Design Records (ADRs) and Request for Clarification (RFCs) have been historically relied upon
--   Answer the question ‘Do I have full clarity of how to implement and get to production?’, else ask questions to resolve any unknowns
+Technical Design Documents, Architecture Design Records (ADRs) and Request for Clarification (RFCs) have been historically relied upon to help the engineers visualise the solution and to identify tradeoffs and bottlenecks.
+-   The engineer should be able to answer the question ‘Do I have full clarity of how to implement and get to production?’, else should ask questions to resolve any unknowns.
     
 **Product**
 
@@ -78,6 +78,7 @@ Seek to minimise ambiguity in
 
 -   Estimated timelines (When will it be ready?)
 -   Scope of the solution in iterations (What exactly is the customer going to get?)
+Sprint boards have been relied upon to get a sense of the progress and planning epics with milestones can give a sense of the timelines.
     
 
 ### Parameters (Feedback loops)
