@@ -1,7 +1,7 @@
 site: Fluid
-title: Thoughts as they flow
-tagline: Ideas related to engineering, startups, philosophy explorations, books and just miscellaneous streams of thought
-description: Anbarasi has some ideas related to engineering, startups, philosophy explorations, books and just miscellaneous streams of thought
+title: Fluid - Tech Thoughts by Anbarasi U
+tagline: Software engineering insights, web development explorations, and technology essays
+description: Technical writing and software engineering insights by Anbarasi U. Covering web development, programming concepts, technology trends, startups, philosophy, and innovative approaches to building digital products.
 googlewebfonts: Fira+Code:wght@400;500;700
 lang: en-US
 timezone: Calcutta
@@ -10,8 +10,32 @@ google_analytics: true
 
 author:
   name: Anbarasi U
-  bio: Catch em' thoughts
-  email: hi@anbuu.in # email adress
+  bio: Software engineer, writer, and creative technologist exploring ideas at the intersection of technology and thought
+  email: hi@anbuu.in
+  twitter: anbarasiu
+
+# Social media and SEO
+social:
+  name: Anbarasi U
+  links:
+    - https://github.com/anbarasiu
+    - https://twitter.com/anbarasiu
+    - https://anbuu.in
+    - https://lit.anbuu.in
+    - https://fluid.anbuu.in
+    - https://gush.anbuu.in
+    - https://fable.anbuu.in
+
+twitter:
+  username: anbarasiu
+  card: summary_large_image
+
+# SEO keywords
+keywords: software engineering, web development, tech blog, programming, Anbarasi U, Anbu, Frankfurt developer, technology essays, startup insights, philosophy, creative technologist
+
+# Default images for social sharing
+defaults_image: /assets/img/fluid-og.jpg
+logo: /favicon.ico
 
 # URL settings
 url: "https://fluid.anbuu.in" #
